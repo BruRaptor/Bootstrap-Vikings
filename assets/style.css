@@ -1,0 +1,27 @@
+body::before{
+    background-image: url(./img/back01.jpg);
+    min-height: 993px;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    content:'';
+    top: 0;
+    left: 0;
+    width: 100vw;
+    z-index: -1;
+}
+h2{
+    color: #000000;
+}
+.carousel{
+    width: 1000px;
+    height: auto;
+    margin-left: 13%;
+  }
+.texto{
+    color: #000000;
+}
+.paragrafos{
+    background-color: #17a2b8;
+}

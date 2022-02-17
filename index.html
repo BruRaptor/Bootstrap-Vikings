@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Using Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+      crossorigin="anonymous"
+    />
+
+    <!-- Using CSS -->
+    <link rel="stylesheet" href="/assets/style.css" />
+    <title>Vikings</title>
+  </head>
+  <body>
+    <!-- Using menu navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Vikings</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#temporadas"
+              >Temporadas <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#music">Musicas Vikings</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#saga">A Saga</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contato">Contato</a>
+          </li>
+        </ul>
+        <form
+          class="form-inline my-2 my-lg-0"
+          method="GET"
+          action="https://www.google.com/search?"
+          target="_black"
+        >
+          <input
+            class="form-control mr-sm-2"
+            type="text"
+            name="q"
+            placeholder="Google"
+            aria-label="search?"
+          />
+          <button class="btn btn-outline-info my-2 my-sm-0" type="submit">
+            Pesquisar
+          </button>
+        </form>
+      </div>
+    </nav>
+
+    <!-- Using carousel -->
+    <div
+      id="carouselExampleFade"
+      class="carousel slide carousel-fade col-lg-10 col- col-md-10 w-75"
+      data-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="assets/img/viking-01.webp"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://i1.wp.com/cultetc.com/wp-content/uploads/2018/01/Vikings-vikings_season_2.jpg?w=1280"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/tumulo.jpg" class="d-block w-100" alt="..." />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-target="#carouselExampleFade"
+        data-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-target="#carouselExampleFade"
+        data-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </button>
+    </div>
+
+    <!-- Using card -->
+    <section class="cards mt-5 d-flex flex-row flex-wrap text-center justify-content-center" id="temporadas">
+      <div class="card m-2 col-md-3 p-0">
+        <img
+          src="assets/img/gifs/primeira-temp.webp"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Primeira Temporada</h5>
+          <p class="card-text">
+            Descendente direto de Odin, Ragnar Lothbrok é o líder da tribo dos
+            vikings. Enquanto tenta invadir a Inglaterra, seu desejo por mais
+            riqueza e poder cresce a cada dia mais e faz um poderoso inimigo ao
+            longo do caminho: Earl Haraldson.
+          </p>
+          <a
+            href="https://youtu.be/9GgxinPwAGc"
+            target="_black"
+            class="btn btn-primary"
+            >Confira o trailer</a
+          >
+        </div>
+      </div>
+
+      <div class="card m-2 col-md-3 p-0">
+        <img
+          src="assets/img/gifs/segunda-temp.webp"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Segunda Temporada</h5>
+          <p class="card-text">
+            Anos sem ver Ragnar, Björn agora é um jovem espadachim. Lagertha se
+            casa novamente com um homem poderoso, um padrasto que orienta Björn
+            sobre tudo o que pode, mas de forma severa.
+          </p>
+          <a
+            href="https://www.youtube.com/watch?v=-KHVr_Eg8qA"
+            target="_black"
+            class="btn btn-primary"
+            >Confira o trailer</a
+          >
+        </div>
+      </div>
+
+      <div class="card m-2 col-md-3 p-0">
+        <img
+          src="assets/img/gifs/terceira-temp.webp"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Terceira Temporada</h5>
+          <p class="card-text">
+            Enquanto os invasores exploram o novo mundo, Ragnar tenta lidar com
+            seu novo papel como rei. Um debate sobre acreditar no Deus católico
+            ou nos deuses nórdicos acaba criando um conflito entre Floki,
+            Athelstan e Ragnar.
+          </p>
+          <a
+            href="https://youtu.be/VVEZW1Jfwsk"
+            target="_black"
+            class="btn btn-primary"
+            >Confira o trailer</a
+          >
+        </div>
+      </div>
+
+      <div class="card m-2 col-md-3 p-0">
+        <img
+          src="assets/img/gifs/quarta-temp.webp"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Quarta Temporada</h5>
+          <p class="card-text">
+            Ragnar tem uma experiência de quase morte. Lagertha descobre que
+            Kalf a ama. Erlendur diz a Torvi que ela deve matar Bjorn , ou ele
+            vai matar o filho dela. O Rei Ecbert ameaça os planos de Ragnar de
+            manter a paz.
+          </p>
+          <a
+            href="https://youtu.be/G3DwTh_aPKw"
+            target="_black"
+            class="btn btn-primary"
+            >Confira o trailer</a
+          >
+        </div>
+      </div>
+      <div class="card m-2 col-md-3 p-0">
+        <img
+          src="assets/img/gifs/quinta-temp.webp"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Quinta Temporada</h5>
+          <p class="card-text">
+            Enquanto Lagertha reina como Rainha de Kattegat, Ivar prova sua
+            liderança sobre o Grande Exército Pagão. Os filhos de Ragnar
+            planejam seus próximos passos depois de vingar a morte de seu pai.
+            Bjorn segue para o Mar Mediterrâneo. Floki sofre com a perda de sua
+            esposa, Helga.
+          </p>
+          <a
+            href="https://www.youtube.com/watch?v=8LCeFLr2H5Y"
+            target="_black"
+            class="btn btn-primary"
+            >Confira o trailer</a
+          >
+        </div>
+      </div>
+
+      <div class="card m-2 col-md-3 p-0">
+        <img
+          src="assets/img/gifs/sexta-temp.webp"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Sexta Temporada</h5>
+          <p class="card-text">
+            Enquanto Lagertha reina como Rainha de Kattegat, Ivar prova sua
+            liderança sobre o Grande Exército Pagão. Os filhos de Ragnar
+            planejam seus próximos passos depois de vingar a morte de seu pai.
+            Bjorn segue para o Mar Mediterrâneo. Floki sofre com a perda de sua
+            esposa, Helga.
+          </p>
+          <a
+            href="https://youtu.be/Y7d0A5re7-0"
+            target="_black"
+            class="btn btn-primary"
+            >Confira o trailer</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Using Music -->
+    <div class="tituloMusic d-flex justify-content-center p-1" id="music"><h2>Musicas Vikings</h2></div>
+    <section class="musicGroup d-flex flex-row text-center flex-wrap justify-content-center pb-4">
+    <div class="musicas d-flex flex-row flex-wrap text-center justify-content-center mt-5 px-2">
+      <ul class="list-group list-group-item-primary d-flex  flex-wrap text-center justify-content-center">
+        <li class="list-group-item" aria-current="true"><a href="https://music.youtube.com/watch?v=Temkv12TNtw&list=PL73WQqs9nXKJkK3xi3lUxXiZzZa6Rqi1v" target="_black">Floki Appears</a></li>
+        <li class="list-group-item"><a href="https://music.youtube.com/watch?v=fhhbh60Sr5g&list=PL73WQqs9nXKJkK3xi3lUxXiZzZa6Rqi1v" target="_black">kala</a></li>
+        <li class="list-group-item"><a href="https://music.youtube.com/watch?v=hNUJCH3CeR8&list=RDAMVMhNUJCH3CeR8" target="_black">Helvegen</a></li>
+        <li class="list-group-item"><a href="https://music.youtube.com/watch?v=e4iDsbd1fzc&list=RDAMVMe4iDsbd1fzc" target="_black">Lyfjaberg</a></li>
+        <li class="list-group-item"><a href="https://music.youtube.com/watch?v=LKasMylfHQQ&list=RDAMVMLKasMylfHQQ" target="_black">My Mother Told Me</a></li>
+      </ul></div>
+
+      <div class="musicas d-flex flex-row flex-wrap text-center justify-content-center mt-5" id="music">
+        <ul class="list-group list-group-item-primary d-flex  flex-wrap text-center justify-content-center">
+          <li class="list-group-item" aria-current="true"><a href="https://music.youtube.com/watch?v=gXJQA4T1GKU&list=RDAMVMgXJQA4T1GKU" target="_black">Heimta Thurs</a></li>
+          <li class="list-group-item"><a href="https://music.youtube.com/watch?v=h5DhZvbZIPo&list=RDAMVMgXJQA4T1GKU" target="_black">Yggdrasil</a></li>
+          <li class="list-group-item"><a href="https://music.youtube.com/watch?v=YL5VIiyTVso&list=RDAMVMgXJQA4T1GKU" target="_black">Valhalla Calling</a></li>
+          <li class="list-group-item"><a href="https://music.youtube.com/watch?v=66iyqTVYgUw&list=RDAMVM66iyqTVYgUw" target="_black">Odinn</a></li>
+          <li class="list-group-item"><a href="https://music.youtube.com/watch?v=d9qAes1L44w&list=RDAMVMd9qAes1L44w" target="_black">Norupo</a></li>
+        </ul></div></section>
+
+        <!-- Using Text -->
+        <div class="textos container d-flex justify-content-center mt-3" id="saga">
+        <div class="col-mb-5">
+        <section class="texto font-weight-bolder">
+          <div class="paragrafos text-center p-2 mt-3 rounded">
+            <h2 align="center">A Saga</h2>
+          <p>Essa Landing Page foi desenvolvida para amantes da mitologia Nórdica, com base em tudo que vemos no Netflix
+            que narra as historias dos guerreiros nórdicos Ragnar, Rollo, Lagertha, Floki e Rei Harald.
+          </p>
+
+          <p>
+            A série é inspirada nas histórias de invasões, comércio e exploração dos Nórdicos da Escandinávia medieval. A série segue as explorações do lendário líder Viking Ragnar Lodbork e a grande escudeira Lagertha, tripulação e família, como notavelmente foi estabelecido nas sagas Ragnars saga Loðbrókar e Ragnarssona þáttr do século XIII, assim como na obra de Saxão Gramático do século XII, Gesta Danorum. As sagas lendárias nórdicas eram parcialmente contos de ficção baseados na tradição oral nórdica, escritas cerca de 200 a 400 anos após os eventos que descrevem. Mas inspirações são tiradas de fontes históricas da época, como os registros do ataque Viking em Lindisfarne, retratado no segundo episódio, ou a conta de Amade ibne Fadalane sobre os Vikings do Volga, do século X. A série se passa no início da era viking, marcada pelo ataque de Lindisfarne, em 793.
+          </p></div>
+        </section></div></div>
+
+        <!-- Using Contact -->
+        <div class="contato d-flex m-4 justify-content-center font-weight-bolder" id="contato">
+          <div class="col-md-5 bg-info rounded mr-3">
+            <form>
+              <label for="nome">Nome:</label>
+              <input type="text" class="form-control" id="nome" placeholder="Digite seu nome" onkeyup="valorNome()">
+              <div id='txtNome'></div>
+              <br>
+              <div class="form-group">
+                <label for="exampleFormControlInput1">E-mail:</label>
+                <input type="Email" class="form-control" id="email" placeholder="email@email.com" onkeyup="validaEmail()">
+                <div id='txtEmail'></div>
+              </div>
+    
+              <div class="form-group">
+                <label for="exampleFormControlTextarea1">Assunto:</label>
+                <textarea type="Assunto" class="form-control" id="assunto" placeholder="Digite sua mensagem"
+                  rows="3" onkeyup="validaAssunto()"></textarea>
+                  <div id='contador'></div>
+                  <div id='txtAssunto'></div>
+              </div>
+              <div class="form-group d-flex justify-content-end">
+                <button onclick="enviar()" class="btn btn-dark">Enviar</button>
+              </div>
+            </form>
+          </div>
+    
+          <div class="col-md-4 d-flex">
+            <br><br>
+            <img width="250" height="450" src="assets/img/contact.jpg" alt="">
+            </iframe>
+          </div>
+        </div>
+
+        <hr class="border border-dark">
+        <!-- Using footer -->
+        <footer class="container d-flex justify-content-center flex-row flex-wrap p-2">
+          <div class="d-flex flex-row flex-wrap p-2">
+         <a href="https://www.linkedin.com/in/bruno-kyo/" target="_black"><img src="./assets/img/linkedin.png" width="70px" alt=""></a>
+        </div>
+
+        <div class="d-flex flex-row flex-wrap p-2">
+         <a href="https://github.com/BruRaptor" target="_black"><img src="./assets/img/github.png" width="70px" alt=""></a></div>
+        </footer>
+
+    <!-- Using JS -->
+    <script src="./assets/scripts.js"></script>
+
+    <!-- Using Bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
